@@ -28,7 +28,7 @@ jobs:
       - name: pandoc
         uses: docker://pandoc/core:2.9
         with:
-          args: '-f gfm -t html pages/citations.md -o html/citations.html'
+          args: '-f gfm -t html pages/citation.md -o html/citation.html'
       # Run Pandoc
       - name: pandoc
         uses: docker://pandoc/core:2.9
